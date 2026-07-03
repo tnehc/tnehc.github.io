@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-marquee: marquee 60s linear infinite;
+  --animate-marquee-reverse: marquee-reverse 60s linear infinite;
+
+  --color-amber-50: #F4F8FF;
+  --color-amber-100: #EBF2FF;
+  --color-amber-200: #C7DAFF;
+  --color-amber-300: #84ACFF;
+  --color-amber-400: #327AFC;
+  --color-amber-500: #1B62E3;
+  --color-amber-600: #0F4BC2;
+  --color-amber-700: #0B399A;
+  --color-amber-800: #082E82;
+  --color-amber-900: #062261;
+  --color-amber-950: #04163B;
+
+  @keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+  @keyframes marquee-reverse {
+    0% {
+      transform: translate3d(-50%, 0, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+
+@keyframes smooth-ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0.65;
+  }
+  100% {
+    transform: scale(1.75);
+    opacity: 0;
+  }
+}
+
+.pulse-ring-1 {
+  animation: smooth-ripple 4s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+.pulse-ring-2 {
+  animation: smooth-ripple 4s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+  animation-delay: 1.33s;
+}
+
+.pulse-ring-3 {
+  animation: smooth-ripple 4s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+  animation-delay: 2.66s;
+}
