@@ -29,7 +29,7 @@ export default function Contact({ theme }: ContactProps) {
 
   const socialLinks = [
     { name: 'LinkedIn', href: 'https://www.linkedin.com/in/bernadette-levera/', icon: Linkedin },
-    { name: 'GitHub', href: 'https://github.com', icon: Github },
+    { name: 'GitHub', href: 'https://github.com/tnehc', icon: Github },
     { name: 'Direct Mail', href: 'mailto:bernadettelevera@gmail.com', icon: Mail },
   ];
 

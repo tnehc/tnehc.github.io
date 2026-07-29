@@ -103,7 +103,7 @@ export default function Navbar({ activeSection, onNavClick, theme, toggleTheme }
           {/* Dark/Light Mode toggle & GitHub container */}
           <div className="hidden lg:flex items-center space-x-5">
             <a
-              href="https://github.com"
+              href="https://github.com/tnehc"
               target="_blank"
               rel="noreferrer"
               className={`transition-colors py-1 ${isLight ? 'text-gray-500 hover:text-gray-900' : 'text-gray-400 hover:text-white'}`}
