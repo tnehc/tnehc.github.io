@@ -10,7 +10,7 @@ export const PROJECTS: Project[] = [
     id: 'vidpres-nl',
     title: 'Vidpres — Video Presentation Solutions Portal',
     description: 'A modern, high-performance website crafted for video presentation services. Built with responsive layout frameworks, optimized asset loading, elegant typography, and high-quality video content mapping.',
-    image: '/src/assets/images/Modern WordPress Website Design Using Elementor.webp',
+    image: '/images/vidpress-project.webp"',
     tags: ['WordPress', 'Elementor Pro', 'Web Dev', 'Responsive Design', 'Custom Visuals'],
     liveUrl: 'https://www.vidpres.nl/',
     githubUrl: '#',

@@ -161,7 +161,7 @@ export default function Hero({ onNavClick, theme }: HeroProps) {
               isLight ? 'border-gray-150 bg-gray-50' : 'border-white/[0.05] bg-black/40'
             }`}>
               <img 
-                src="/images/bernadette_levera_profile.webp" 
+                src="/images/blevera-profile.webp" 
                 alt="Bernadette Levera Profile" 
                 className="w-full h-full object-cover select-none pointer-events-none filter brightness-95 hover:brightness-100 dark:brightness-90 dark:hover:brightness-100 transition duration-500"
                 referrerPolicy="no-referrer"
